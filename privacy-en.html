@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moat - Privacy Policy</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0A0A0A; color: #E0E0E0; line-height: 1.8; padding: 20px; }
+    .container { max-width: 720px; margin: 0 auto; padding: 40px 20px; }
+    h1 { color: #FF4757; font-size: 28px; margin-bottom: 8px; }
+    .version { color: #888; font-size: 14px; margin-bottom: 40px; }
+    h2 { color: #fff; font-size: 18px; margin-top: 32px; margin-bottom: 12px; border-left: 3px solid #FF4757; padding-left: 12px; }
+    p, li { color: #ccc; font-size: 15px; margin-bottom: 8px; }
+    ul { padding-left: 20px; margin-bottom: 16px; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+    th { background: #1a1a1a; color: #FF4757; text-align: left; padding: 10px 12px; border: 1px solid #333; }
+    td { padding: 10px 12px; border: 1px solid #333; color: #ccc; }
+    .contact { background: #111; border-radius: 12px; padding: 20px; margin-top: 24px; }
+    .contact p { margin-bottom: 4px; font-size: 14px; }
+    .footer { text-align: center; color: #555; font-size: 13px; margin-top: 60px; padding-top: 20px; border-top: 1px solid #222; }
+    a { color: #FF4757; text-decoration: none; }
+    .nav { margin-bottom: 40px; }
+    .nav a { margin-right: 20px; font-size: 14px; color: #888; }
+    .nav a:hover, .nav a.active { color: #FF4757; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <a href="terms-en.html">Terms of Service</a>
+      <a href="privacy-en.html" class="active">Privacy Policy</a>
+      <a href="disclaimer.html">Disclaimer</a>
+      <a href="privacy.html">한국어</a>
+    </div>
+
+    <h1>Privacy Policy</h1>
+    <p class="version">v3.0 (April 11, 2026)</p>
+
+    <p>Moat ("we", "us", or "the Company") values user privacy and complies with the Personal Information Protection Act (PIPA) and related Korean laws. This Privacy Policy applies to the Moat mobile application ("Service").</p>
+
+    <h2>1. Information We Collect</h2>
+    <p><strong>Account Information (collected at registration):</strong></p>
+    <table>
+      <tr><th>Item</th><th>Required</th><th>Method</th></tr>
+      <tr><td>Email address</td><td>Required</td><td>User input at signup</td></tr>
+      <tr><td>Password</td><td>Required</td><td>User input (stored encrypted)</td></tr>
+      <tr><td>Nickname</td><td>Required</td><td>User input at signup</td></tr>
+      <tr><td>Birth year</td><td>Required</td><td>User input at signup</td></tr>
+      <tr><td>Investment experience</td><td>Optional</td><td>User input at signup</td></tr>
+    </table>
+
+    <p><strong>Data stored only on your device (never sent to our servers):</strong></p>
+    <ul>
+      <li>Portfolio data: stock tickers, names, quantity, purchase price</li>
+      <li>Transaction history: buy/sell/dividend records</li>
+      <li>App settings: theme, notification preferences</li>
+      <li>Data imported via CSV</li>
+    </ul>
+
+    <p><strong>Automatically collected via Google Analytics:</strong></p>
+    <ul>
+      <li>Usage statistics: screen views, feature usage frequency, session duration</li>
+      <li>Device info: OS version, device model, screen resolution, app version</li>
+      <li>Error information: crash logs, error locations</li>
+    </ul>
+    <p>Google Analytics does not collect personally identifiable information (name, email, phone number, etc.). Only anonymized statistical data is processed.</p>
+
+    <h2>2. How We Use Your Information</h2>
+    <table>
+      <tr><th>Purpose</th><th>Related Data</th></tr>
+      <tr><td>User authentication</td><td>Email, password</td></tr>
+      <tr><td>In-app profile display</td><td>Nickname</td></tr>
+      <tr><td>Age-based investment statistics</td><td>Birth year</td></tr>
+      <tr><td>User segmentation</td><td>Investment experience</td></tr>
+      <tr><td>Portfolio analysis calculations</td><td>On-device portfolio data</td></tr>
+      <tr><td>Market data display</td><td>Stock tickers (external API calls)</td></tr>
+      <tr><td>Service improvement</td><td>Google Analytics data</td></tr>
+    </table>
+
+    <h2>3. Third-Party Services</h2>
+    <p>We use the following third-party services:</p>
+    <table>
+      <tr><th>Service</th><th>Provider</th><th>Purpose</th><th>Data Shared</th></tr>
+      <tr><td>Firebase Authentication</td><td>Google LLC</td><td>Account management</td><td>Email, password (encrypted)</td></tr>
+      <tr><td>Cloud Firestore</td><td>Google LLC</td><td>Profile storage</td><td>Nickname, birth year, investment experience</td></tr>
+      <tr><td>Google Analytics</td><td>Google LLC</td><td>Usage analytics</td><td>Anonymized usage data</td></tr>
+      <tr><td>Yahoo Finance API</td><td>Yahoo Inc.</td><td>Stock/ETF prices</td><td>Stock tickers only</td></tr>
+      <tr><td>CoinGecko API</td><td>Gecko Labs Pte. Ltd.</td><td>Crypto prices</td><td>Cryptocurrency names only</td></tr>
+      <tr><td>Open Exchange Rates</td><td>Open Exchange Rates Ltd.</td><td>Exchange rates</td><td>None (public API)</td></tr>
+    </table>
+    <p>We do not share personally identifiable information with any third party beyond the purposes stated above.</p>
+
+    <h2>4. Data Retention and Deletion</h2>
+    <ul>
+      <li>Account data is retained until you delete your account.</li>
+      <li>Upon account deletion, all Firebase Authentication and Firestore data is immediately deleted.</li>
+      <li>On-device portfolio data is not stored on our servers and is automatically deleted when you uninstall the app.</li>
+      <li>Google Analytics data is automatically deleted per Google's retention policy (default 14 months).</li>
+    </ul>
+
+    <h2>5. Data Security</h2>
+    <ul>
+      <li>Passwords are one-way hashed via Firebase Authentication.</li>
+      <li>On-device data is encrypted via iOS Keychain / Android EncryptedSharedPreferences.</li>
+      <li>All communications use HTTPS (TLS 1.2+).</li>
+      <li>Firestore security rules ensure users can only access their own data.</li>
+    </ul>
+
+    <h2>6. Your Rights</h2>
+    <ul>
+      <li>You can view, edit, or delete your portfolio data at any time within the app.</li>
+      <li>You can modify your profile (nickname) within the app.</li>
+      <li>You can delete your account and all associated server data at any time.</li>
+      <li>For data access, correction, or deletion requests, contact us at the email below.</li>
+    </ul>
+
+    <h2>7. Children's Privacy</h2>
+    <p>Our Service is intended for users aged 14 and older. We do not knowingly collect personal information from children under 14. If we become aware that we have collected data from a child under 14, we will promptly delete the account and associated data.</p>
+
+    <h2>8. International Data Transfer</h2>
+    <p>Account data is stored on Firebase servers operated by Google LLC. The primary data center is located in Seoul, South Korea (asia-northeast3 region). Google LLC holds SOC 2, ISO 27001, and other international security certifications.</p>
+
+    <h2>9. Contact Us</h2>
+    <div class="contact">
+      <p>Email: <a href="mailto:jnj05270@gmail.com">jnj05270@gmail.com</a></p>
+    </div>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>This Privacy Policy is effective as of April 11, 2026. We may update this policy from time to time. Significant changes will be notified via in-app notice at least 7 days before taking effect.</p>
+
+    <div class="footer">
+      <p>&copy; 2026 Moat. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
